@@ -1,0 +1,82 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+section.forms .section-content .form-item {
+    padding: 10px 0;
+}
+
+section.forms .section-content .form-item label {
+    display: inline-block;
+}
+
+section.forms .section-content .form-item label, section.forms .section-content .form-item label.item-100 {
+    width: calc(100% / 1 * 1);
+}
+
+section.forms .section-content .form-item label.item-75 {
+    width: calc(100% / 4 * 3);
+}
+
+section.forms .section-content .form-item label.item-66 {
+    width: calc(100% / 3 * 2);
+}
+
+section.forms .section-content .form-item label.item-66-66 {
+    width: calc(100% / 3 * 2 / 3 * 2);
+}
+
+section.forms .section-content .form-item label.item-66-33 {
+    width: calc(100% / 3 * 2 / 3 * 1);
+}
+
+section.forms .section-content .form-item label.item-50 {
+    width: calc(100% / 2 * 1);
+}
+
+section.forms .section-content .form-item label.item-33 {
+    width: calc(100% / 3 * 1);
+}
+
+section.forms .section-content .form-item label.item-25 {
+    width: calc(100% / 4 * 1);
+}
+
+section.forms .section-content .form-item label input, section.forms .section-content .form-item label textarea {
+    transform: skew(-7deg);
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: var(--bg-transparent);
+    color: var(--txt-color-body);
+    border: none;
+    outline-color: var(--bg-transparent-2);
+    width: calc(100% - 20px * 2 - 5px * 2);
+}
+
+section.forms .section-content .form-item label textarea {
+    width: calc(100% / 3 * 2 - 20px * 2 - 5px * 2);
+    height: 150px;
+    min-width: calc(100% / 3 * 2 - 20px * 2 - 5px * 2);
+    max-width: calc(100% - 20px * 2 - 5px * 2);
+    min-height: 150px;
+    max-height: 250px;
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width: 960px) {
+    section.forms .section-content .form-item label,
+    section.forms .section-content .form-item label.item-100,
+    section.forms .section-content .form-item label.item-75,
+    section.forms .section-content .form-item label.item-66,
+    section.forms .section-content .form-item label.item-66-66,
+    section.forms .section-content .form-item label.item-66-33,
+    section.forms .section-content .form-item label.item-50,
+    section.forms .section-content .form-item label.item-33,
+    section.forms .section-content .form-item label.item-25 {
+        width: 100%;
+    }
+    section.forms .section-content .form-item label textarea {
+        width: calc(100% - 20px * 2 - 5px * 2);
+        resize: vertical;
+    }
+}
