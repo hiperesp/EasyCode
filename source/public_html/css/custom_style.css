@@ -46,8 +46,8 @@ section.forms .section-content .form-item label input, section.forms .section-co
     transform: skew(-7deg);
     padding: 10px 20px;
     margin: 0 5px;
-    background-color: var(--bg-transparent);
-    color: var(--txt-color-body);
+    background-color: #ffffffdd;
+    color: #000000;
     border: none;
     outline-color: var(--bg-transparent-2);
     width: calc(100% - 20px * 2 - 5px * 2);
