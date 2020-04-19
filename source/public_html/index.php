@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png"-->
+    <link rel="icon" type="image/png" href="images/logo_white.png"-->
     <script src="js/script.js" defer=""></script>
 </head>
 
@@ -76,7 +77,7 @@
                                     <a target="_blank" href="https://github.com/hiperesp/PHP-Database-Auto-Installer" title="Instalador Automático de Banco de Dados em PHP">PHP Database Auto Installer <span class="badge-1" style="background-color: #600089;">Público</span></a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a target="_blank" href="https://github.com/hiperesp/" title="Aplicativo de Empregos">Aplicativo de Empregos <span class="badge-1" style="background-color: #2e0048;">Não lançado</span></a>
+                                    <a target="_blank" href="https://contrata.eu.org" title="ContrataEu">ContrataEu <span class="badge-1" style="background-color: #0080ff;">Em desenvolvimento</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -105,6 +106,25 @@
                                 </li>
                                 <li class="dropdown-item">
                                     <a href="#rafaelLopes">Rafael Lopes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#team">
+                            <div class="menu-item-title">Ferramentas <i class="material-icons">arrow_drop_down</i></div>
+                            <div class="menu-item-subtitle">públicas</div>
+                        </a>
+                        <div class="dropdown-content">
+                            <ul class="dropdown-column">
+                                <li class="dropdown-item">
+                                    <a target="_blank" href="http://speedtest.easycode.eu.org">SpeedTest <span class="badge-1">by Ookla</span></a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a target="_blank" id="contrataEuLink" href="http://contrata.eu.org">Contrata Eu <span class="badge-1">Novo!</span></a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="javascript:alert('Atenção:\nO Trampo Fácil agora é \u0022Contrata Eu\u0022.');document.querySelector('#contrataEuLink').click();">Trampo Fácil</a>
                                 </li>
                             </ul>
                         </div>
