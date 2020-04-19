@@ -25,6 +25,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png"-->
     <link rel="icon" type="image/png" href="images/logo_white.png"-->
     <script src="js/script.js" defer=""></script>
+    <style>
+footer .news, footer .copyright {
+    font-weight: lighter;
+}
+footer .link {
+    text-decoration: underline;
+}
+    </style>
 </head>
 
 <body>
@@ -159,9 +167,8 @@
                                 <p>Um sistema de hospedagem em PHP, com suporte ao banco de dados MariaDB. Linux</p>
                             </div>
                             <div class="slide-options">
-                                <a target="_blank" href="http://simplephphosting.development" class="button-2 button-large"><i class="material-icons">remove_red_eye</i> Sistema Live</a>
+                                <a target="_blank" href="https://github.com/hiperesp/Simple-PHP-Hosting-System/tree/master" class="button-2 button-large"><i class="material-icons">cloud_download</i> Obter código-fonte</a>
                                 <a target="_blank" href="https://github.com/hiperesp/Simple-PHP-Hosting-System/" class="button-1 button-large"><i class="material-icons">format_align_left</i> Mais informações</a>
-                                <a target="_blank" href="https://github.com/hiperesp/Simple-PHP-Hosting-System/tree/master" class="button-1 button-large"><i class="material-icons">cloud_download</i> Obter código-fonte</a>
                             </div>
                         </div>
                     </div>
@@ -179,8 +186,8 @@
                                 <p>Um framework CSS para desenvolvimento de sites no estilo "Gaming".</p>
                             </div>
                             <div class="slide-options">
-                                <a target="_blank" href="http://hyper.gaming/" class="button-2 button-large"><i class="material-icons">remove_red_eye</i> Demonstração</a>
-                                <a target="_blank" href="https://github.com/hiperesp/hypergaming/" class="button-1 button-large"><i class="material-icons">cloud_download</i> Obter código-fonte</a>
+                                <a target="_blank" href="http://hiperesp.github.io/HyperGaming/" class="button-2 button-large"><i class="material-icons">remove_red_eye</i> Demonstração</a>
+                                <a target="_blank" href="https://github.com/hiperesp/HyperGaming/" class="button-1 button-large"><i class="material-icons">cloud_download</i> Obter código-fonte</a>
                             </div>
                         </div>
                     </div>
@@ -483,10 +490,26 @@
                 </div>
             </div>
         </section>
+        <section class="news">
+            <div class="section-title"></div>
+            <div class="section-content" style="text-align: center;opacity: 0.5;">
+                <b>Provedores</b>: 
+                Virtual Machine by <a class="link" target="_blank" href="http://oracle.com">Oracle</a>.
+                Domains by <a class="link" target="_blank" href="http://eu.org">EU.org</a>.
+                SpeedTest by <a class="link" target="_blank" href="http://speedtest.net">Ookla</a>.<br>
+                <b>Nossos Links</b>:
+                <a class="link" target="_blank" href="http://168.138.150.123">168.138.150.123</a>.
+                <a class="link" target="_blank" href="http://easycode.eu.org">EasyCode.eu.org</a>.
+                <a class="link" target="_blank" href="http://contrata.eu.org">Contrata.eu.org</a>.
+                <a class="link" target="_blank" href="http://trampofacil.eu.org">TrampoFacil.eu.org</a>.<br>
+                <b>Administração</b>:
+                <a class="link" target="_blank" href="https://myservices-hiperesp.console.oraclecloud.com">Oracle Cloud Console</a>.<br>
+            </div>
+        </section>
         <section class="copyright">
             <div class="section-title"></div>
             <div class="section-content">
-                <p>2019 &copy; Made with <span style="color: #ff0000;">❤</span> by <a target="_blank" href="/">EasyCode</a>. Template <a target="_blank" href="https://gitlab.com/hiperesp/hypergaming">HyperGaming</a> by <a target="_blank" href="/">EasyCode</a>.</p>
+                <p>2019-2020 &copy; Made with <span style="color: #ff0000;">❤</span> by <a class="link" target="_blank" href="/">EasyCode</a>. Template <a class="link" target="_blank" href="https://github.com/hiperesp/HyperGaming/">HyperGaming</a> by <a class="link" target="_blank" href="/">EasyCode</a>.</p>
             </div>
         </section>
     </footer>
