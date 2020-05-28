@@ -85,7 +85,7 @@ footer .link {
                                     <a target="_blank" href="https://github.com/hiperesp/PHP-Database-Auto-Installer" title="Instalador Automático de Banco de Dados em PHP">PHP Database Auto Installer <span class="badge-1" style="background-color: #600089;">Público</span></a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a target="_blank" href="https://contrata.eu.org" title="ContrataEu">ContrataEu <span class="badge-1" style="background-color: #0080ff;">Em desenvolvimento</span></a>
+                                    <a target="_blank" href="https://contrataeu.site" title="ContrataEu">ContrataEu <span class="badge-1" style="background-color: #0080ff;">Em desenvolvimento</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -126,10 +126,10 @@ footer .link {
                         <div class="dropdown-content">
                             <ul class="dropdown-column">
                                 <li class="dropdown-item">
-                                    <a target="_blank" href="http://speedtest.easycode.eu.org">SpeedTest <span class="badge-1">by Ookla</span></a>
+                                    <a target="_blank" href="http://speedtest.easycode.hiperesp.host">SpeedTest <span class="badge-1">by Ookla</span></a>
                                 </li>
                                 <li class="dropdown-item">
-                                    <a target="_blank" id="contrataEuLink" href="http://contrata.eu.org">Contrata Eu <span class="badge-1">Novo!</span></a>
+                                    <a target="_blank" id="contrataEuLink" href="http://contrataeu.site">Contrata Eu <span class="badge-1">Novo!</span></a>
                                 </li>
                                 <li class="dropdown-item">
                                     <a href="javascript:alert('Atenção:\nO Trampo Fácil agora é \u0022Contrata Eu\u0022.');document.querySelector('#contrataEuLink').click();">Trampo Fácil</a>
@@ -495,13 +495,11 @@ footer .link {
             <div class="section-content" style="text-align: center;opacity: 0.5;">
                 <b>Provedores</b>: 
                 Virtual Machine by <a class="link" target="_blank" href="http://oracle.com">Oracle</a>.
-                Domains by <a class="link" target="_blank" href="http://eu.org">EU.org</a>.
                 SpeedTest by <a class="link" target="_blank" href="http://speedtest.net">Ookla</a>.<br>
                 <b>Nossos Links</b>:
-                <a class="link" target="_blank" href="http://168.138.150.123">168.138.150.123</a>.
-                <a class="link" target="_blank" href="http://easycode.eu.org">EasyCode.eu.org</a>.
-                <a class="link" target="_blank" href="http://contrata.eu.org">Contrata.eu.org</a>.
-                <a class="link" target="_blank" href="http://trampofacil.eu.org">TrampoFacil.eu.org</a>.<br>
+                <?php /*<a class="link" target="_blank" href="http://168.138.150.123">168.138.150.123</a>.*/ ?>
+                <a class="link" target="_blank" href="http://easycode.hiperesp.host">EasyCode</a>.
+                <a class="link" target="_blank" href="http://contrataeu.site">ContrataEu</a>.
                 <b>Administração</b>:
                 <a class="link" target="_blank" href="https://myservices-hiperesp.console.oraclecloud.com">Oracle Cloud Console</a>.<br>
             </div>
